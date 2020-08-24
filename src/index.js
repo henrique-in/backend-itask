@@ -8,7 +8,7 @@ const TaskRoutes = require('./routes/TaskRoutes')
 
 server.use('/task', TaskRoutes);
 
-var porta = process.env.PORT || 8080;
+var porta = process.env.PORT || 3333;
 
 server.listen(porta, ()=>{
   console.log('API ONLINE');
